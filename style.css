@@ -1,0 +1,255 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero {
+  background: #1F2937;
+  color: white;
+  /* padding: top right bottom left*/
+  padding: 10px 100px 100px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* hero header */
+.hero
+.header {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px; 
+  margin-bottom: 100px;
+}
+
+/* hero header logo text */
+.hero
+.logoText{
+  color: #F9FAF8;
+  font-size: 24px; 
+  font-weight: 600;
+}
+
+/*hero header links*/
+.hero
+.header
+ul {
+  list-style-type: none; 
+  display: flex;
+  align-items: flex-start;
+  margin: 0px;
+  padding: 0px; 
+  gap: 10px; 
+}
+
+/*hero header link text */
+.hero
+.header
+a {
+  text-decoration: none; 
+  color: #E5E7EB; 
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/*hero container*/
+.hero
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+/* hero container title */
+.hero
+.container-items
+.title {
+  color: #F9FAF8; 
+  font-size: 48px; 
+  font-weight: 800; 
+  margin-bottom: 5px;
+}
+
+/*hero container image*/
+.hero
+.container
+img {
+  width: 1000px;
+  height: 225px;
+}
+
+/* hero container secondary text */
+.hero
+.container-items
+.content {
+  color: #E5E7EB; 
+  font-size: 18px; 
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+/* hero container sign up button */
+.hero
+button {
+  background: #3882F6;
+  display: flex;
+  color: #F9FAF8;
+  padding: 5px 25px 5px 25px;
+  border-radius: 6px;
+  border-color: #F9FAF8;
+  margin: 0;
+}
+
+/*information header text*/
+.information
+h1 {
+  display: flex;
+  font-size: 36px; 
+  font-weight: 800;
+  color: #1F2937;
+  justify-content: center;
+  align-items: center;
+}
+
+/* information container */
+.information
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+/* information container info */
+.information
+.info {
+  max-width: 180px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* information container info images */
+.information
+img {
+  width: 175px; 
+  height: 175px;
+  border: 3px solid #3882F6;
+  border-radius: 6px;
+}
+
+
+/* information contianer info caption */
+.information 
+.text {
+  font-size: 18px;
+  color: #1F2937;
+}
+
+
+.Quote{
+  background: #E5E7EB;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Quote continaer text */
+.Quote
+.text {
+  font-size: 36px; 
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937;
+}
+
+/* Quote container author */
+.Quote
+.author {
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.signupBox {
+  padding: 100px;
+  display: flex; 
+  color: #F9FAF8;
+  justify-content: center;
+  align-items: center;
+}
+
+/* signupBox container */
+.signupBox
+.container{
+  width: 700px;
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3882F6;
+  border-radius: 6px; 
+  gap: 60px; 
+}
+
+/* signupBox container textbox */
+.signupBox
+.container
+.textbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* signupBox container textbox title */
+.signupBox
+.container
+.textbox
+.title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* signupBox container textbox comment */
+.signupBox 
+.container
+.textbox
+.comment{
+  font-size: 15px;
+}
+
+/* signupBox container button */
+.signupBox
+.container
+button {
+  display: flex;
+  font-size: 17px; 
+  color: #F9FAF8;
+  padding: 10px 30px 10px 30px; 
+  background: #3882F6;
+  border-radius: 6px;
+  border-color: #F9FAF8;
+}
+
+.footer {
+  background: #1F2937;
+  color: white;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+}
+
+.footer
+.text {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
